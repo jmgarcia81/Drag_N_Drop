@@ -3,25 +3,42 @@
 }
 
 body {
+  background: whitesmoke;
 
 }
 
 .empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border: 3px rgb(254, 59, 59);
+  background-color: sandybrown;
 
 }
 
 .fill {
-
+  background-image: url("http://source.unsplash.com/random/150x150");
   width: 150px;
+  height: 150px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
 
 }
 
 .hold {
-  border: ;
+  border: solid blue 4px;
 }
 
 .hovered {
-  : dashed;
+  background:brown;
+  border-style: dashed;
+}
+
+.invisible{
+  display: none;
 }
 
 @media (max-width: 800px) {
